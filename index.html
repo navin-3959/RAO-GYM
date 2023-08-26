@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rao fitness club</title>
+    <!-- <style>
+        /* CSS reset */
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('img2p1.jpg');
+            height: 400px;
+                }
+    </style> -->
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    body {
+        font-family: 'Playfair Display', serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('g1p1.jpg');
+
+    }
+
+    .left {
+        display: inline-block;
+        border: 3px solid rgb(13, 4, 4);
+        position: absolute;
+        left: 34px;
+        top: 8px;
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    .left image {
+        width: 50px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        top: 18px;
+        margin: 20px auto;
+        /* border: 3px solid rgb(47, 219, 35); */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        display: inline-block;
+        /* border: 3px solid rgb(50, 22, 229); */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Playfair Display', serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border-color: gray;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(234, 209, 175);
+    }
+
+    .container {
+
+        border: 2px solid white;
+        margin: 5px;
+        padding: 3px 2px;
+        width: 33%;
+        border-radius: 8px;
+        position: absolute;
+        right: 20px;
+        top: 100px;
+
+    }
+
+    .form-group input {
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 2px;
+        border: 2px solid white;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="g5p1.jpeg" alt="logo">
+            <div>Rao fitness</div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best GYM of hayrana</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enetr your name">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="enetr your age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enetr your gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enetr your locality ">
+
+
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
